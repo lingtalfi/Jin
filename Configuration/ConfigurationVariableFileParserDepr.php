@@ -4,11 +4,8 @@
 namespace Jin\Configuration;
 
 
-use BabyYaml\BabyYamlUtil;
 use BabyYaml\Reader\Exception\ParseErrorException;
-use Bat\ArrayTool;
 use Bat\BDotTool;
-use Bat\FileSystemTool;
 use DirScanner\YorgDirScannerTool;
 
 /**
@@ -88,7 +85,6 @@ class ConfigurationVariableFileParser
     {
         $conf = [];
         $this->collectConfigurationVariablesByDir($dirPath, $conf);
-
         $this->resolveConf($conf);
         return $conf;
     }
@@ -439,6 +435,6 @@ class ConfigurationVariableFileParser
      */
     private function addError($msg)
     {
-        $this->errors[] = $msg;
+        $this->errors[] = '(Jin\Configuration\ConfigurationVariableFileParser):' . $msg;
     }
 }

@@ -14,8 +14,6 @@ Work in progress...
 Jin is part of the [universe framework](https://github.com/karayabin/universe-snapshot).
 
 
-
-
 Install
 =============
 
@@ -24,4 +22,17 @@ Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
 uni import Jin
 ```
+
+
+
+
+
+History Log
+===============
+
+- 1.0.0 -- 2019-01-16
+
+    - initial commit
+
+
 
