@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Http;
+namespace Ling\Jin\Http;
 
 
 /**

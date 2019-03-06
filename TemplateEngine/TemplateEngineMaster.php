@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jin\TemplateEngine;
+namespace Ling\Jin\TemplateEngine;
 
 
-use Jin\Registry\Access;
-use UniversalTemplateEngine\UniversalTemplateEngineInterface;
+use Ling\Jin\Registry\Access;
+use Ling\UniversalTemplateEngine\UniversalTemplateEngineInterface;
 
 /**
  * @info The TemplateEngineMaster class is the template engine master used by a jin app.

@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
-use ArrayRefResolver\ArrayRefResolverInterface;
-use ArrayRefResolver\ArrayTagResolver;
-use BabyYaml\BabyYamlUtil;
-use Bat\ArrayTool;
-use Bat\FileSystemTool;
-use DirScanner\YorgDirScannerTool;
-use Jin\Registry\Access;
+use Ling\ArrayRefResolver\ArrayRefResolverInterface;
+use Ling\ArrayRefResolver\ArrayTagResolver;
+use Ling\BabyYaml\BabyYamlUtil;
+use Ling\Bat\ArrayTool;
+use Ling\Bat\FileSystemTool;
+use Ling\DirScanner\YorgDirScannerTool;
+use Ling\Jin\Registry\Access;
 
 /**
  * @info The ConfigurationFileParser class is a utility class providing tools to parse and interpret configuration

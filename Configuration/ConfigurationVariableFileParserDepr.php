@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
-use BabyYaml\Reader\Exception\ParseErrorException;
-use Bat\BDotTool;
-use DirScanner\YorgDirScannerTool;
+use Ling\BabyYaml\Reader\Exception\ParseErrorException;
+use Ling\Bat\BDotTool;
+use Ling\DirScanner\YorgDirScannerTool;
 
 /**
  * @info The ConfigurationVariableFileParser class is a utility class providing tools to parse and interpret configuration

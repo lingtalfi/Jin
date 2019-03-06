@@ -1,19 +1,19 @@
 <?php
 
-namespace Jin\ApplicationEnvironment;
+namespace Ling\Jin\ApplicationEnvironment;
 
 
-use ArrayRefResolver\ArrayTagResolver;
-use BumbleBee\Autoload\ButineurAutoloader;
-use Jin\Configuration\Conf;
-use Jin\Configuration\ConfigurationFileParser;
-use Jin\Configuration\LoggerConfigurator;
-use Jin\Configuration\PhpConfigurator;
-use Jin\Configuration\TemplateEngineMasterConfigurator;
-use Jin\Container\ServiceContainer\JinHotServiceContainer;
-use Jin\Log\Logger;
-use Jin\Registry\Access;
-use Registry\Registry;
+use Ling\ArrayRefResolver\ArrayTagResolver;
+use Ling\BumbleBee\Autoload\ButineurAutoloader;
+use Ling\Jin\Configuration\Conf;
+use Ling\Jin\Configuration\ConfigurationFileParser;
+use Ling\Jin\Configuration\LoggerConfigurator;
+use Ling\Jin\Configuration\PhpConfigurator;
+use Ling\Jin\Configuration\TemplateEngineMasterConfigurator;
+use Ling\Jin\Container\ServiceContainer\JinHotServiceContainer;
+use Ling\Jin\Log\Logger;
+use Ling\Jin\Registry\Access;
+use Ling\Registry\Registry;
 
 /**
  *
@@ -54,7 +54,7 @@ class ApplicationEnvironment
      * and the bootServices method's goal is to make services accessible via Access::Services.
      *
      * The basic synopsis is that the variables are first collected, then resolved (variables use the default
-     * ArrayTagResolver mechanism, see https://github.com/karayabin/universe-snapshot/blob/master/universe/ArrayRefResolver/ArrayTagResolver.md fore more info).
+     * ArrayTagResolver mechanism, see https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/ArrayRefResolver/ArrayTagResolver.md fore more info).
      *
      * Then resolved variables are stored in the Conf object.
      * Then services are parsed, and resolved using the (resolved) variables.

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jin\Exception\BadConfiguration;
+namespace Ling\Jin\Exception\BadConfiguration;
 
 
-use Jin\Exception\JinBadConfigurationException;
-use Jin\Http\HttpRequest;
+use Ling\Jin\Exception\JinBadConfigurationException;
+use Ling\Jin\Http\HttpRequest;
 
 /**
  *

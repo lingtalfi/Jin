@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Log;
+namespace Ling\Jin\Log;
 
 
 /**

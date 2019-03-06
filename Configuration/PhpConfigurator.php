@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
 /**

@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Jin\Component\PreRouting;
+namespace Ling\Jin\Component\PreRouting;
 
 
-use ArrayToString\ArrayToStringTool;
-use Jin\Http\HttpRequest;
-use Jin\Registry\Access;
+use Ling\ArrayToString\ArrayToStringTool;
+use Ling\Jin\Http\HttpRequest;
+use Ling\Jin\Registry\Access;
 
 
 /**

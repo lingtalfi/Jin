@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Jin\TemplateEngine;
+namespace Ling\Jin\TemplateEngine;
 
 
-use ZeusTemplateEngine\ZeusTemplateEngine;
+use Ling\ZeusTemplateEngine\ZeusTemplateEngine;
 
 
 /**

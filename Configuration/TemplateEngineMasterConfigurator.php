@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
-use Jin\Registry\Access;
-use Jin\TemplateEngine\TemplateEngineMaster;
+use Ling\Jin\Registry\Access;
+use Ling\Jin\TemplateEngine\TemplateEngineMaster;
 
 /**
  * @info The TemplateEngineMasterConfigurator class configures the template engine master for the jin app.

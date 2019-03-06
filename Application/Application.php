@@ -1,23 +1,23 @@
 <?php
 
 
-namespace Jin\Application;
+namespace Ling\Jin\Application;
 
 
-use ArrayToString\ArrayToStringTool;
-use Bat\ClassTool;
-use Bat\DebugTool;
-use Jin\Component\Routing\Router\RouterInterface;
-use Jin\Component\Routing\Router\RouterResult;
-use Jin\Exception\BadConfiguration\JinBadControllerException;
-use Jin\Exception\BadConfiguration\JinBadPageException;
-use Jin\Exception\BadConfiguration\JinBadRouteException;
-use Jin\Exception\BadConfiguration\JinNoRouteMatchesException;
-use Jin\Exception\JinBadConfigurationException;
-use Jin\Http\HttpRequest;
-use Jin\Http\HttpResponse;
-use Jin\Log\Logger;
-use Jin\Registry\Access;
+use Ling\ArrayToString\ArrayToStringTool;
+use Ling\Bat\ClassTool;
+use Ling\Bat\DebugTool;
+use Ling\Jin\Component\Routing\Router\RouterInterface;
+use Ling\Jin\Component\Routing\Router\RouterResult;
+use Ling\Jin\Exception\BadConfiguration\JinBadControllerException;
+use Ling\Jin\Exception\BadConfiguration\JinBadPageException;
+use Ling\Jin\Exception\BadConfiguration\JinBadRouteException;
+use Ling\Jin\Exception\BadConfiguration\JinNoRouteMatchesException;
+use Ling\Jin\Exception\JinBadConfigurationException;
+use Ling\Jin\Http\HttpRequest;
+use Ling\Jin\Http\HttpResponse;
+use Ling\Jin\Log\Logger;
+use Ling\Jin\Registry\Access;
 
 /**
  *

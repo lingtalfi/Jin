@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Jin\Container\ServiceContainer;
+namespace Ling\Jin\Container\ServiceContainer;
 
 
-use Octopus\ServiceContainer\RedOctopusServiceContainer;
+use Ling\Octopus\ServiceContainer\RedOctopusServiceContainer;
 
 class JinHotServiceContainer extends RedOctopusServiceContainer implements ServiceContainerInterface
 {

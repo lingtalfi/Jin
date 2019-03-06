@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Jin\Component\PreRouting;
+namespace Ling\Jin\Component\PreRouting;
 
 
-use Jin\Exception\BadConfiguration\JinBadMaintenancePageException;
-use Jin\Http\HttpRequest;
-use Jin\Http\HttpResponse;
-use Jin\Registry\Access;
+use Ling\Jin\Exception\BadConfiguration\JinBadMaintenancePageException;
+use Ling\Jin\Http\HttpRequest;
+use Ling\Jin\Http\HttpResponse;
+use Ling\Jin\Registry\Access;
 
 
 /**

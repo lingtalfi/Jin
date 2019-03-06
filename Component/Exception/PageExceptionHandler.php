@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Jin\Component\Exception;
+namespace Ling\Jin\Component\Exception;
 
 
-use Bat\ClassTool;
-use Jin\Http\HttpResponse;
-use Jin\Registry\Access;
+use Ling\Bat\ClassTool;
+use Ling\Jin\Http\HttpResponse;
+use Ling\Jin\Registry\Access;
 
 /**
  * @info The PageExceptionHandler class recovers from an exception by displaying a pre-defined page template.

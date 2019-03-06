@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Jin\Http;
+namespace Ling\Jin\Http;
 
-use PhpUploadFileFix\PhpUploadFileFixTool;
+use Ling\PhpUploadFileFix\PhpUploadFileFixTool;
 
 /**
  *

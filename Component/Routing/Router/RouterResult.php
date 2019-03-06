@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Component\Routing\Router;
+namespace Ling\Jin\Component\Routing\Router;
 
 
 /**

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
-use Jin\Log\Logger;
-use PhpErrorName\PhpErrorName;
+use Ling\Jin\Log\Logger;
+use Ling\PhpErrorName\PhpErrorName;
 
 /**
  * @info The LoggerConfigurator class configures the main logger instance of a jin application.

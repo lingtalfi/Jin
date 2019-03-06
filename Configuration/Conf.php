@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Jin\Configuration;
+namespace Ling\Jin\Configuration;
 
 
-use Bat\BDotTool;
-use Jin\Container\VariableContainer\VariableContainerInterface;
+use Ling\Bat\BDotTool;
+use Ling\Jin\Container\VariableContainer\VariableContainerInterface;
 
 /**
  * The Conf class is the dynamic variation of the VariableContainerInterface interface.

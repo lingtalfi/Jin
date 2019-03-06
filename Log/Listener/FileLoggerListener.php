@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Jin\Log\Listener;
+namespace Ling\Jin\Log\Listener;
 
 
-use Bat\ConvertTool;
-use Bat\FileSystemTool;
-use Bat\FileTool;
-use Bat\ZipTool;
-use Jin\Exception\BadConfiguration\JinBadLoggerException;
+use Ling\Bat\ConvertTool;
+use Ling\Bat\FileSystemTool;
+use Ling\Bat\FileTool;
+use Ling\Bat\ZipTool;
+use Ling\Jin\Exception\BadConfiguration\JinBadLoggerException;
 
 /**
  * @info The FileLoggerListener is a simple logger listener which writes the log messages to a specified file.

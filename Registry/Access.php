@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Jin\Registry;
+namespace Ling\Jin\Registry;
 
 
-use Jin\Application\Application;
-use Jin\Configuration\ConfigurationFileParser;
-use Jin\Container\ServiceContainer\ServiceContainerInterface;
-use Jin\Container\VariableContainer\VariableContainerInterface;
-use Jin\Log\Logger;
-use Jin\TemplateEngine\TemplateEngineMaster;
-use Registry\RegistryInterface;
+use Ling\Jin\Application\Application;
+use Ling\Jin\Configuration\ConfigurationFileParser;
+use Ling\Jin\Container\ServiceContainer\ServiceContainerInterface;
+use Ling\Jin\Container\VariableContainer\VariableContainerInterface;
+use Ling\Jin\Log\Logger;
+use Ling\Jin\TemplateEngine\TemplateEngineMaster;
+use Ling\Registry\RegistryInterface;
 
 /**
  * @nfo The Access class is a registry designed to ease the development

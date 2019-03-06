@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Exception;
+namespace Ling\Jin\Exception;
 
 
 /**

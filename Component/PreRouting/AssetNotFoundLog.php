@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Jin\Component\PreRouting;
+namespace Ling\Jin\Component\PreRouting;
 
 
-use Bat\FileSystemTool;
-use Jin\Http\HttpRequest;
-use Jin\Http\HttpResponse;
-use Jin\Registry\Access;
+use Ling\Bat\FileSystemTool;
+use Ling\Jin\Http\HttpRequest;
+use Ling\Jin\Http\HttpResponse;
+use Ling\Jin\Registry\Access;
 
 /**
  * @info The AssetNotFoundLog class sends an alert message to the main logger on the "missing_assets" channel when a

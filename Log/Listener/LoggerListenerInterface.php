@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Log\Listener;
+namespace Ling\Jin\Log\Listener;
 
 
 /**

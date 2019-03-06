@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Jin\Component\Routing\Router;
+namespace Ling\Jin\Component\Routing\Router;
 
 
-use Bat\DebugTool;
-use Jin\Http\HttpRequest;
-use Jin\Log\Logger;
-use Jin\Registry\Access;
+use Ling\Bat\DebugTool;
+use Ling\Jin\Http\HttpRequest;
+use Ling\Jin\Log\Logger;
+use Ling\Jin\Registry\Access;
 
 /**
  *

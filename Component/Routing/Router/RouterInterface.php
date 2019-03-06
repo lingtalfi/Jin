@@ -1,9 +1,9 @@
 <?php
 
-namespace Jin\Component\Routing\Router;
+namespace Ling\Jin\Component\Routing\Router;
 
 
-use Jin\Http\HttpRequest;
+use Ling\Jin\Http\HttpRequest;
 
 /**
  *

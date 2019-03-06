@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Jin\Container\VariableContainer;
+namespace Ling\Jin\Container\VariableContainer;
 
 
 /**
@@ -41,7 +41,7 @@ interface VariableContainerInterface
     /**
      * Returns the value stored at the given $key, or the $default value if not found.
      *
-     * The $key can use the [bdot notation](https://github.com/karayabin/universe-snapshot/blob/master/universe/Bat/doc/bdot-notation.md).
+     * The $key can use the [bdot notation](https://github.com/karayabin/universe-snapshot/blob/master/universe/Ling/Bat/doc/bdot-notation.md).
      *
      *
      *
