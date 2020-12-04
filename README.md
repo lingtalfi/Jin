@@ -30,6 +30,10 @@ uni import Ling/Jin
 History Log
 ===============
 
+- 1.0.2 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.0.1 -- 2020-11-06
 
     - update api to work with Bat 1.279
